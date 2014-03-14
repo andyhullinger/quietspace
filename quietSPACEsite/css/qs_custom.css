@@ -1,0 +1,134 @@
+body, html{
+	background-color: #fffaf2;
+}
+
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+	font-family:  'Coda', cursive;
+	text-shadow: 0px 1px 1px rgba(150, 150, 150, 1);
+	line-height: 1.1em;
+	}
+
+.lowercase{
+	text-transform: none;
+}
+
+.centered-type{
+	text-align: center;
+}
+
+p {
+	color: #666666;
+}
+
+.colorone {
+	color: #663333; /* burgundy */
+}
+
+.colortwo {
+	color: #66cccc; /* teal */
+}
+
+.colorthree {
+	color: #fffaf2; /* off white */
+}
+
+.disabled {
+	background-color: #66cccc;
+}
+
+.warning {
+	background-color: #663333;
+}
+
+.inset-type{
+	padding: .5em .25em 0;
+}
+
+
+/* layout */
+
+.featured {
+	margin-top: -370px;
+	position: relative;
+	z-index: 1;
+}
+
+.featured-text{
+	position: relative;
+	z-index: 2;
+}
+
+.top-bar{
+	background-color: transparent;
+	height: 125px;
+	padding-top: .5em;
+	position: relative;
+	z-index: 5;
+}
+
+.tab-bar {
+	background-color: #66cccc;
+}
+
+.header-bttns{
+	padding-top: 1.1em;
+	z-index: 5;
+}
+
+.smalltopbar {
+	height:160px;
+}
+
+.panel {
+	background-color: #bce6e3;
+	border-radius: 8px;
+	border: thin solid #66cccc;
+}
+
+.small-panel{
+	padding: 2em;
+	background-color: transparent;
+	margin: 0;
+	border: none;
+}
+
+.review {
+	padding: 2em 2.5em 0;
+}
+
+.header{
+	margin-top: 20px;
+}
+
+.banner {
+	background-image: url(../images/QS_Banner_Comp.png);
+	height: 465px;
+	border: none;
+	background-color: #fffaf2;
+}
+
+.textured {
+	background-image: url(../images/qs_noise_tile.jpg);
+}
+
+.colorone-bgrnd {
+	background-color: #663333; /* burgundy */
+}
+
+.colortwo-bgrnd {
+	background-color: #66cccc; /* teal */
+}
+
+.colorthree-bgrnd {
+	background-color: #fffaf2; /* off white */
+}
+
+/* images */
+
+.styled{
+	border-radius: 5px;
+	box-shadow: 0px 3px 5px #666;
+	-moz-box-shadow: 0px 3px 5px #666;
+	-webkit-box-shadow: 0px 3px 5px #666;
+}

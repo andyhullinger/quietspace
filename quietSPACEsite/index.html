@@ -1,0 +1,337 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuietSpace</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/qs_custom.css" />
+    <script src="js/vendor/modernizr.js"></script>  
+	
+	<link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'><!-- google font kit -->
+  </head>
+
+<body>
+<div class="off-canvas-wrap"> <!--needs to wrap all of the site content -->
+  <div class="inner-wrap"> <!-- only wraps the off-canvas toggle/nav -->
+  		<div class="fixed">
+		<nav class="tab-bar show-for-small">
+		  <section class="right-small">
+		    <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+		  </section>
+		</nav>
+  		</div>
+		
+    <!-- Off Canvas Menu -->
+    <aside class="right-off-canvas-menu">
+        <ul>
+          <li><a href="#qs-features">Features</a></li>
+          <li><a href="#qs-walkthrough">Walk Through</a></li>
+          <li><a href="#qs-reviews">Reviews</a></li>
+          <li><a href="#qs-getit">Get Quiet Space</a></li>
+          <li><a href="#qs-email">email List</a></li>
+        </ul>
+    </aside>
+
+    <!-- main site content goes here -->
+
+<!-- Navigation/header for larger displays -->
+	<div class="row">
+		<div class="large-12 columns">
+ 
+	      <nav class="top-bar hide-for-small" data-topbar>
+	        <ul class="title-area large-5 medium-5 columns">
+	          <!-- Title Area -->
+	          <li class="name "><a href="#"><img src="images/QS_Head_Logo.png" /></a></li>
+	        </ul>
+	 
+	       <section class="left hide-for-small large-5 medium-5 columns header-bttns">
+	       
+	       	<!- modal -->
+	       	<div id="login" class="reveal-modal small" data-reveal>
+	       		<h3>Log In and get started:</h3>
+	       		<form>
+				  <div class="row">
+				    <div class="small-12">
+				      <div class="row">
+				        <div class="small-12 columns">
+				          <input type="text" id="username" placeholder="Username">
+				          <input type="text" id="password" placeholder="Passowrd">
+				          <input type="submit" value="Log In">
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+				</form>
+	       		<a class="close-reveal-modal" href="#">X</a>
+	       		
+	       	</div>
+	          <a href="#" data-reveal-id="login" class="button tiny radius warning">LOG IN</a> <!-- click = activate modal for log-in -->
+	          <a href="#" class="button tiny radius warning">GET QUIETSPACE</a>
+	        </section>
+	        
+			<div class="large-2 medium-2 columns hide-for-small"> <!-- spacing to right of buttons -->
+			</div>	        
+	        
+	      </nav>
+
+<!-- Navigation/header for smaller displays -->
+	      <nav class="top-bar smalltopbar show-for-small" data-topbar>
+	        <ul class="title-area">
+	          <!-- Title Area -->
+	          <li class="name "><a href="#"><img src="images/QS_Footer_Logo.png" /></a></li>
+	        </ul>
+	        
+	        <!-- <row class="right small-12 columns show-for-small">
+	          <a href="#" class="button tiny radius">Log In</a>
+	          <a href="#" class="button tiny radius">Get QuietSpace</a>
+	        </row> -->
+	      </nav>         
+  
+
+<!-- End Header/nav area --> 
+    </div>
+  </div>
+
+<!-- Banner--> 
+	<div class="row">
+	  <div class="large-12 columns">
+			 
+		<div class="show-for-medium-up">
+
+			 <div class="large-9 medium-9 small-12 columns featured-text">
+			    <h1 class="colorthree">Find Some <span class="colorone lowercase">Quietspace</span> To…</h1>
+			    <h3 class="colorthree">Study, Meet With A Client, Work On A Project, Write Some Code, Read A Book, Kill Some Time… Whatever It Is, <span class="colorone">Quietspace</span> Has You Covered.</h3><br />
+
+			    <form>
+				  <div class="row">
+				    <div class="large-10 medium-10 small-12 columns">
+				      <div class="row collapse">
+				        <div class="small-10 columns">
+				          <input type="text" placeholder="Send the link to your phone:">
+				        </div>
+				        <div class="small-2 columns">
+				          <a href="#" class="button colorone-bgrnd postfix">SEND</a><br />
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+    			</form>
+			</div>
+			
+			<div class="large-3 medium-3 small-12 columns featured-text"> <!-- to fill the 4 columns to the right of the featured text -->
+			</div>
+			
+		    <img class="featured" src="images/QS_Banner_Comp.png" alt="QuietSpace Banner Graphic">
+
+		</div> 
+      
+<!-- Mobile Banner -->
+    <div class="row">
+      <div class="small-12 show-for-small">
+      	<div class="small-panel">
+			    <h1 class="colorone">Find Some <span class="colortwo lowercase">Quietspace</span> To…</h1>
+			    <h3 class="colorone">Study, Meet With A Client, Work On A Project, Write Some Code, Read A Book, Kill Some Time… Whatever It Is, <span class="colortwo">Quietspace</span> Has You Covered.</h3>
+			    
+			    <form>
+				  <div class="row">
+				    <div class="large-10 medium-10 small-12 columns">
+				      <div class="row collapse">
+				        <div class="small-10 columns">
+				          <input type="text" placeholder="Send the link to your phone:">
+				        </div>
+				        <div class="small-2 columns">
+				          <a href="#" class="button colorone-bgrnd postfix">SEND</a>
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+    			</form>
+      	</div>
+	  </div>
+    </div>
+<!-- End Mobile Banner -->
+ 
+	</div>
+	</div>
+<!-- End Banner -->
+
+
+<!-- Features -->
+<a name="qs-features"></a>
+	<div class="row">
+	<hr>
+	  	<div class="large-12 columns">
+	  	<h1 class="colorone centered-type">What Makes <span class="colortwo">Quietspace</span> So Damn Awesome?</h1>
+	  	</div>	
+	</div>
+
+	<div class="row panel textured">
+        <div class="large-3 medium-3 small-12 columns">
+          <img class="styled" src="images/icon_notifications_large.jpg" />
+          <h5 class="inset-type">Push Notifications</h5>
+          <p class="inset-type">Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa.</p>
+        </div>
+ 
+        <div class="large-3 medium-3 small-12 columns">
+          <img class="styled" src="images/icon_realtime_large.jpg" />
+          <h5 class="inset-type">Realtime Updates</h5>
+          <p class="inset-type">Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa.</p>
+        </div>
+ 
+        <div class="large-3 medium-3 small-12 columns">
+          <img class="styled" src="images/icon_directions_large.jpg" />
+          <h5 class="inset-type">Directions</h5>
+          <p class="inset-type">Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa.</p>
+        </div>
+ 
+        <div class="large-3 medium-3 small-12 columns">
+          <img class="styled" src="images/icon_settings_large.jpg" />
+          <h5 class="inset-type">Custom Settings</h5>
+          <p class="inset-type">Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa.</p>
+        </div>
+ 	</div><br>
+<!-- End Features --> 
+ 
+<!-- Video & reviews --> 
+<a name="qs-walkthrough"></a>
+<div class="row">
+<hr>
+	<div class="large-12 columns">
+		<div class="row">
+		
+			<div class="large-7 medium-7 small-12 columns">
+				<h3 class="colorone">Check Out How It Works…</h3>
+
+				<div>
+					<div class="row">										 
+						<img src="images/qs-walkthrough.gif" />
+					</div>			 
+				</div>
+				
+				<div class="row">
+			        <div class="large-7 medium-12 small-12 columns">
+			          <h4 class="colortwo">Awesome, right? So go get it…</h4>
+			        </div>
+			 
+			        <div class=" left large-5 medium-12 small-12 columns">
+			         <a href="http://itunes.apple.com" title="Apple iTunes app store" target="_blank"><img class="styled" src="images/AppStoreLogo.png" /></a>
+			          <a href="https://play.google.com" title="Google Play" target="_blank"><img class="styled" src="images/GooglePlayLogo.png" /></a>
+			        </div>
+			 	</div><br>
+
+			</div>	
+						          
+		<hr class="show-for-small">
+
+<a name="qs-reviews"></a>			
+			<div class="large-5 medium-5 small-12 columns">
+				<h3 class="colorone">Reviews</h3>
+					<div class="row panel textured">
+						<div class="orbit-container">
+							<ul class="example-orbit-content" data-orbit>
+							  <li data-orbit-slide="headline-1">
+							    <div class="review">
+									<h4>@QuietSpace ROCKS!!! I had a few hours to kill & just wanted someplace quiet to do some studying. #quietspaceto delivered</h4>
+									<p>John Doe</p>
+							    </div>
+							  </li>
+							  <li data-orbit-slide="headline-2">
+							    <div class="review">
+									<h4>This was exactly what I needed. Thanks @quietspace</h4>
+									<p>Jane Doe</p>
+							    </div>
+							  </li>
+							  <li data-orbit-slide="headline-2">
+							    <div class="review">
+									<h4>Wait a minute, @JohnDoe, you told me you had a meeting. What do you mean you had time to kill & needed someplace quiet? Why not just come home?</h4>
+									<p>Jane Doe</p>
+							    </div>
+							  </li>							  <li data-orbit-slide="headline-3">
+							    <div class="review">
+									<h4>Just needed to find someplace quite so I could get a bit of studying done. @quietspace to the rescue</h4>
+									<p>frustrated student</p>
+							    </div>
+							  </li>
+							  <li data-orbit-slide="headline-4">
+							    <div class="review">
+									<h4>Thanks @quietspace, needed to touch base with a client & you helped find a perfect location.</h4>
+									<p>designerboy</p>
+							    </div>
+							  </li>
+							</ul>
+						</div>
+					</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- End Video & reviews --> 
+    <!-- Footer -->
+ 
+  <footer class="row">
+  <hr>
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="small-panel large-4 medium-4 small-12 columns hide-for-small">
+          <img src="images/QS_Footer_Logo.png" />
+        </div>
+
+<a name="qs-getit"></a>        
+        <div class="small-panel large-4 medium-4 small-12 columns">
+	        <div class="row inset-type">
+		        <h4 class="colortwo">Find someplace quiet.</h4>
+		        <p>Available for both Apple and Droid. So you have no excuse. Go get it and find someplace quiet.</p>
+		    </div>
+					 
+		    <div class="row">
+		        <a href="http://itunes.apple.com" title="Apple iTunes app store" target="_blank"><img class="styled" src="images/AppStoreLogo.png" /></a>
+		        <a href="https://play.google.com" title="Google Play" target="_blank"><img class="styled" src="images/GooglePlayLogo.png" /></a>
+		    </div>
+	        <br>
+        </div>
+
+		<hr class="show-for-small">
+
+<a name="qs-email"></a>        
+        <div class="small-panel large-4 medium-4 small-12 columns">
+	        <div class="row inset-type">
+		        <h4 class="colortwo">Let's stay connected!</h4>
+		        <p>Sign up and get the latest updates and news sent straight to your inbox</p>
+		    </div>
+        
+			    <form>
+				  <div class="row">
+				      <div class="row collapse">
+				        <div class="small-10 columns">
+				          <input type="text" placeholder="What's your email address?">
+				        </div>
+				        <div class="small-2 columns">
+				          <a href="#" class="button colorone-bgrnd postfix">SEND</a>
+				        </div>
+				      </div>
+				    </div>
+    			</form>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+
+  <!-- close the off-canvas menu -->
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
+</body>
+</html>
