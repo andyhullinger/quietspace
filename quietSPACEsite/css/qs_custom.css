@@ -67,7 +67,7 @@ p {
 	z-index: 5;
 }
 
-.tab-bar {
+.tealbg {
 	background-color: #66cccc;
 }
 
@@ -124,6 +124,13 @@ p {
 	background-color: #fffaf2; /* off white */
 }
 
+.padded-head { /*add padding to elements to account for top-bar height */
+	margin-bottom: 35px;
+	}
+
+.padded { /*add padding to elements to account for top-bar height */
+	padding-top: 25px;
+}
 /* images */
 
 .styled{

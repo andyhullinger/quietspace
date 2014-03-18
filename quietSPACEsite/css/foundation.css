@@ -2729,6 +2729,7 @@ dl {
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
+  list-style: none;
   font-family: inherit; }
 
 ul {
@@ -3741,9 +3742,9 @@ dialog[open] {
 
 nav.tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
-  color: white;
-  height: 2.8125rem;
+  background: #6CC;
+  color: #6CC;
+  height: 0;
   line-height: 2.8125rem;
   position: relative; }
   nav.tab-bar h1, nav.tab-bar h2, nav.tab-bar h3, nav.tab-bar h4, nav.tab-bar h5, nav.tab-bar h6 {
@@ -3759,7 +3760,6 @@ section.left-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #1a1a1a;
   box-shadow: 1px 0 0 #4e4e4e;
   left: 0; }
 
@@ -3768,8 +3768,6 @@ section.right-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #4e4e4e;
-  box-shadow: -1px 0 0 #1a1a1a;
   right: 0; }
 
 section.tab-bar-section {
@@ -3798,7 +3796,7 @@ a.menu-icon {
   display: block;
   line-height: 2.0625rem;
   padding: 0;
-  color: white;
+  color: #6CC;
   position: relative; }
   a.menu-icon span {
     position: absolute;
@@ -3807,8 +3805,8 @@ a.menu-icon {
     height: 0;
     left: 0.8125rem;
     top: 0.3125rem;
-    -webkit-box-shadow: 1px 10px 1px 1px white, 1px 16px 1px 1px white, 1px 22px 1px 1px white;
-    box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
+    -webkit-box-shadow: 1px 10px 1px 1px #6CC, 1px 16px 1px 1px #6CC, 1px 22px 1px 1px #6CC;
+    box-shadow: 0 10px 0 1px #6CC, 0 16px 0 1px #6CC, 0 22px 0 1px #6CC; }
   a.menu-icon:hover span {
     -webkit-box-shadow: 1px 10px 1px 1px #b3b3b3, 1px 16px 1px 1px #b3b3b3, 1px 22px 1px 1px #b3b3b3;
     box-shadow: 0 10px 0 1px #b3b3b3, 0 16px 0 1px #b3b3b3, 0 22px 0 1px #b3b3b3; }
@@ -3839,7 +3837,7 @@ a.menu-icon {
   bottom: 0;
   position: absolute;
   overflow-y: auto;
-  background: #333333;
+  background: #633;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-transform: translate3d(100%, 0, 0);

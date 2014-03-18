@@ -18,7 +18,7 @@ Kieran wuz here!
 <div class="off-canvas-wrap"> <!--needs to wrap all of the site content -->
   <div class="inner-wrap"> <!-- only wraps the off-canvas toggle/nav -->
   		<div class="fixed">
-		<nav class="tab-bar show-for-small">
+		<nav class="tab-bar tealbg show-for-small">
 		  <section class="right-small">
 		    <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
 		  </section>
@@ -28,11 +28,11 @@ Kieran wuz here!
     <!-- Off Canvas Menu -->
     <aside class="right-off-canvas-menu">
         <ul>
-          <li><a href="#qs-features">Features</a></li>
-          <li><a href="#qs-walkthrough">Walk Through</a></li>
-          <li><a href="#qs-reviews">Reviews</a></li>
-          <li><a href="#qs-getit">Get Quiet Space</a></li>
-          <li><a href="#qs-email">email List</a></li>
+          <li><a class="colorthree" href="#qs-features">Features</a></li>
+          <li><a class="colorthree" href="#qs-walkthrough">Walk Through</a></li>
+          <li><a class="colorthree" href="#qs-reviews">Reviews</a></li>
+          <li><a class="colorthree" href="#qs-getit">Get Quiet Space</a></li>
+          <li><a class="colorthree" href="#qs-email">email List</a></li>
         </ul>
     </aside>
 
@@ -82,7 +82,7 @@ Kieran wuz here!
 	      <nav class="top-bar smalltopbar show-for-small" data-topbar>
 	        <ul class="title-area">
 	          <!-- Title Area -->
-	          <li class="name "><a href="#"><img src="images/QS_Footer_Logo.png" /></a></li>
+	          <li class="name "><a href="#"><img class="padded-head" src="images/QS_Footer_Logo.png" /></a></li>
 	        </ul>
 	        
 	        <!-- <row class="right small-12 columns show-for-small">
@@ -161,9 +161,9 @@ Kieran wuz here!
 
 
 <!-- Features -->
-<a name="qs-features"></a>
+<a name="qs-features" class="padded"></a>
 	<div class="row">
-	<hr>
+<hr class="hide-for-small">
 	  	<div class="large-12 columns">
 	  	<h1 class="colorone centered-type">What Makes <span class="colortwo">Quietspace</span> So Damn Awesome?</h1>
 	  	</div>	
@@ -197,9 +197,9 @@ Kieran wuz here!
 <!-- End Features --> 
  
 <!-- Video & reviews --> 
-<a name="qs-walkthrough"></a>
+<a name="qs-walkthrough" class="padded"></a>
 <div class="row">
-<hr>
+<hr class="hide-for-small">
 	<div class="large-12 columns">
 		<div class="row">
 		
@@ -207,8 +207,10 @@ Kieran wuz here!
 				<h3 class="colorone">Check Out How It Works…</h3>
 
 				<div>
-					<div class="row">										 
-						<img src="images/qs-walkthrough.gif" />
+					<div class="row"><!-- link to vimo video -->										 
+					<div class="flex-video">
+        <iframe width="420" height="315" src="//player.vimeo.com/video/89254417" frameborder="0" allowfullscreen></iframe>
+					</div>
 					</div>			 
 				</div>
 				
@@ -225,9 +227,9 @@ Kieran wuz here!
 
 			</div>	
 						          
-		<hr class="show-for-small">
+<hr class="hide-for-small">
 
-<a name="qs-reviews"></a>			
+<a name="qs-reviews" class="padded"></a>			
 			<div class="large-5 medium-5 small-12 columns">
 				<h3 class="colorone">Reviews</h3>
 					<div class="row panel textured">
@@ -274,14 +276,14 @@ Kieran wuz here!
     <!-- Footer -->
  
   <footer class="row">
-  <hr>
+<hr class="hide-for-small">
     <div class="large-12 columns">
       <div class="row">
         <div class="small-panel large-4 medium-4 small-12 columns hide-for-small">
           <img src="images/QS_Footer_Logo.png" />
         </div>
 
-<a name="qs-getit"></a>        
+<a name="qs-getit" class="padded"></a>        
         <div class="small-panel large-4 medium-4 small-12 columns">
 	        <div class="row inset-type">
 		        <h4 class="colortwo">Find someplace quiet.</h4>
@@ -327,6 +329,11 @@ Kieran wuz here!
     <script>
       $(document).foundation();
     </script>
+    <script>
+    $('.right-off-canvas-menu a').click(function(e){
+    $('.off-canvas-wrap').removeClass('move-left');
+})
+    </script> 
 
 
   <!-- close the off-canvas menu -->
