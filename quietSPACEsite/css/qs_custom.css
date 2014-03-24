@@ -54,6 +54,7 @@ p {
 	z-index: 1;
 }
 
+
 .featured-text{
 	position: relative;
 	z-index: 2;
@@ -131,6 +132,8 @@ p {
 .padded { /*add padding to elements to account for top-bar height */
 	padding-top: 25px;
 }
+
+
 /* images */
 
 .styled{
