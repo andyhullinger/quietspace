@@ -3728,6 +3728,7 @@ dialog[open] {
   -webkit-backface-visibility: hidden;
   position: relative;
   width: 100%;
+  padding-top: 1.5rem;
   *zoom: 1;
   -webkit-transition: -webkit-transform 500ms ease;
   -moz-transition: -moz-transform 500ms ease;
@@ -3743,18 +3744,18 @@ dialog[open] {
 nav.tab-bar {
   -webkit-backface-visibility: hidden;
   background: #6CC;
-  color: #6CC;
-  height: 0;
+  color: #fff;
+  height: 3rem;
   line-height: 2.8125rem;
   position: relative; }
   nav.tab-bar h1, nav.tab-bar h2, nav.tab-bar h3, nav.tab-bar h4, nav.tab-bar h5, nav.tab-bar h6 {
-    color: white;
+    color: #fff;
     font-weight: bold;
     line-height: 2.8125rem;
     margin: 0; }
   nav.tab-bar h1, nav.tab-bar h2, nav.tab-bar h3, nav.tab-bar h4 {
     font-size: 1.125rem; }
-
+    
 section.left-small {
   width: 2.8125rem;
   height: 2.8125rem;
@@ -3796,7 +3797,7 @@ a.menu-icon {
   display: block;
   line-height: 2.0625rem;
   padding: 0;
-  color: #6CC;
+  color: #fff;
   position: relative; }
   a.menu-icon span {
     position: absolute;
@@ -3805,11 +3806,11 @@ a.menu-icon {
     height: 0;
     left: 0.8125rem;
     top: 0.3125rem;
-    -webkit-box-shadow: 1px 10px 1px 1px #6CC, 1px 16px 1px 1px #6CC, 1px 22px 1px 1px #6CC;
-    box-shadow: 0 10px 0 1px #6CC, 0 16px 0 1px #6CC, 0 22px 0 1px #6CC; }
+    -webkit-box-shadow: 1px 10px 1px 1px 633, 1px 16px 1px 1px #633, 1px 22px 1px 1px #633;
+    box-shadow: 0 10px 0 1px #633, 0 16px 0 1px #633, 0 22px 0 1px #633; }
   a.menu-icon:hover span {
-    -webkit-box-shadow: 1px 10px 1px 1px #b3b3b3, 1px 16px 1px 1px #b3b3b3, 1px 22px 1px 1px #b3b3b3;
-    box-shadow: 0 10px 0 1px #b3b3b3, 0 16px 0 1px #b3b3b3, 0 22px 0 1px #b3b3b3; }
+    -webkit-box-shadow: 1px 10px 1px 1px #fff, 1px 16px 1px 1px #fff, 1px 22px 1px 1px #fff;
+    box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff; }
 
 .left-off-canvas-menu {
   -webkit-backface-visibility: hidden;
